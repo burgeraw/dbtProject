@@ -1,0 +1,7 @@
+version: 2
+
+seeds:
+  - name: test_data
+    config:
+      column_types:
+        purchase_amount: MONEY

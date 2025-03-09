@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: staging_model
+    description: Staged test_data about purchases
+    columns:
+      - name: purchase_id
+        description: Primary key for purchases
+        tests:
+          - unique
+          - not_null
